@@ -1,0 +1,4 @@
+name:       Blog Frelleto
+permalink:  pretty
+markdown:   redcarpet
+pygments:   true
