@@ -1,6 +1,8 @@
 ---
+published: false
 layout: post
 title:  "Welcome to Jekyll!"
+author: Vagner Zampieri
 date:   2013-07-16 21:09:05
 categories: jekyll update
 ---

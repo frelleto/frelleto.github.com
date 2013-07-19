@@ -1,9 +1,18 @@
----
-layout: default
----
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!DOCTYPE html>
+<html lang='pt'>
+  {% include head.html %}
+    <body class="preview" id="top" data-spy="scroll" data-target=".subnav" data-offset="80">
+      {% include navbar.html %}
+      <div class="container">
+        <h3>{{ page.title }}</h3>
+        <p class="meta">{{ page.date | date_to_string }} - {{ page.author }}</p>
 
-<div class="post">
-{{ content }}
-</div>
+        <div class="post">
+          {{ content }}
+        </div>
+      </div> <!-- /container -->
+
+      {% include footer.html %}
+
+    </body>
+</html>
