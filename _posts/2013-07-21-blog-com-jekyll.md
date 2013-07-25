@@ -46,6 +46,8 @@ Adicionar o [Disqus][disqus] no seu blog é fácil, faça uma conta no site e ad
 
 <script src="https://gist.github.com/vagnerzampieri/6075664.js"></script>
 
+Para trocar a url que o github gera, é só subir um arquivo CNAME e configurar o seu DNS.
+
 Se você quiser ver como estava o código até esse post, para poder seguir, vá até a referência [4a8f295bd2f00344afda37ae60ab7074052bdc69][ref] do repositório. 
 
 [blog]: http://blog.frelleto.com.br
