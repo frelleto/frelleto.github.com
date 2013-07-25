@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Blog com jekyll"
+title:  Blog com jekyll
+subtitle: Como foi feito o blog do Frelleto com Jekyll, Disqus e integração com as páginas do Github.
 author: Vagner Zampieri
 date:   2013-07-21 9:17:05
 categories: ruby jekyll
