@@ -1,0 +1,10 @@
+[
+  {% for post in site.posts %}
+    {
+      "title" : "{{ post.title }} - {{ post.author}}", 
+      "url" : "{{ post.url }}", 
+      "date" : "{{ post.date | date_to_string }}", 
+      "subtitle" : "{{ post.subtitle}}", 
+    }{% if forloop.rindex0 != 0 %},{% endif %}
+  {% endfor %}
+];

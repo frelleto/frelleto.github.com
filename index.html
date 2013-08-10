@@ -3,13 +3,17 @@ layout: default
 title: Blog - Frelleto
 ---
 
+<script type='text/javascript'>
+  FrelletoBlog.posts = {% include Helper/FrelletoBlogPosts %}
+</script>
+
 <div id="home">
-  <h3>Posts</h3>
+  {% include search.html %}
   <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.author }}</li>
-      <p>{{ post.subtitle }}</p>
+    <div class="post" ng-repeat="post in posts | filter:searchText">
+      <li><span ng-bind-html-unsafe="post.date | highlight:searchText"></span> &raquo; <a ng-href="{{ '{{ post.url' }} }}" ng-bind-html-unsafe="post.title | highlight:searchText"></a></li>
+      <p ng-bind-html-unsafe="post.subtitle | highlight:searchText"></p>
       <hr/>
-    {% endfor %}
+    </div>
   </ul>
 </div>

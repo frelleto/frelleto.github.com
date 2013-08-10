@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang='pt'>
+<html lang='pt' ng-app='FrelletoBlog'>
   {% include head.html %}
     <body class="preview" id="top" data-spy="scroll" data-target=".subnav" data-offset="80">
       {% include navbar.html %}
-      <div class="container">
+      <div class="container" ng-controller='SearchController'>
         {{ content }}
       </div> <!-- /container -->
       
