@@ -246,7 +246,7 @@ body {
 }
 
 a {
-  color: #ffffff;
+  color: #b94a48;
   text-decoration: none;
 }
 
@@ -7087,4 +7087,6 @@ a.thumbnail:hover {
 
 .right {
   float: right;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
