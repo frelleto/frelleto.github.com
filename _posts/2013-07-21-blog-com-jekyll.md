@@ -27,7 +27,7 @@ Tem duas formas de criar a app, ou você faz com um generator `jerkyll new seu_u
 
 Começando com o `index.html`:
 
-<script src="https://gist.github.com/vagnerzampieri/6074434.js"></script>
+<script src="https://gist.github.com/vagnerzampieri/6074434.js?file=index.html"></script>
 
 No cabeçalho do arquivo você pode notar que ele tem duas marcações, a de `title` é o título da página que vai no `<head>` do seu HTML normal e `layout` é qual o layout que será chamado, ele fica armazenado na pasta `_layouts`, nesse caso com o nome de `default.html`. 
 
@@ -37,7 +37,7 @@ O diretório `_includes` te da aquela organização que você precisa para não 
 
 Exemplo de post:
 
-<script src="https://gist.github.com/vagnerzampieri/6075642.js"></script>
+<script src="https://gist.github.com/vagnerzampieri/6074434.js?file=2013-07-20-blog-do-frelleto"></script>
 
 Para montar o post basta criar um layout e chamar com o método `page` os dados do post, `content` será aonde vai ser chamado todo o post. Para gerar um post deve ser feito um arquivo dentro do diretório `_posts`, por exemplo `2013-07-21-blog-com-jekyll.md`, que é montado com data e o título do post, esses dados tbm ajudam a montar a url do post. Os posts devem ser feitos usando [Markdown][markdown]. Outra forma da url ficar diferente é colocando a marcação `categories`, e quando tiver a maração `published: false` o post não é colocado na lista de posts.
 
@@ -45,7 +45,7 @@ Para montar o post basta criar um layout e chamar com o método `page` os dados 
 
 Adicionar o [Disqus][disqus] no seu blog é fácil, faça uma conta no site e adicione o código gerado no HTML do layout post. Pode ser passado os dados da página ao [Disqus][disqus] com configuração.
 
-<script src="https://gist.github.com/vagnerzampieri/6075664.js"></script>
+<script src="https://gist.github.com/vagnerzampieri/6074434.js?file=disqus.html"></script>
 
 Para trocar a url que o github gera, é só subir um arquivo CNAME e configurar o seu DNS.
 
