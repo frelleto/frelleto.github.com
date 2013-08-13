@@ -1,6 +1,5 @@
 ---
 layout: post
-published: false
 title:  Busca no Jekyll usando AngularJS
 subtitle: Indo de encontro com o framework de Javascript da moda, faça uma busca utilizando AngularJS no seu blog com Jekyll.
 author: Vagner Zampieri
@@ -29,7 +28,21 @@ Para você utilizar o AngularJS é preciso chamar a tag dele `ng-app` como vou u
 
 <script src="https://gist.github.com/vagnerzampieri/6202010.js?file=default.html"></script>
 
+Faça um campo de busca simples e identifique com a tag `ng-model`, o valor `searchText` esse será o valor para pegar o dado e buscar.
 
+<script src="https://gist.github.com/vagnerzampieri/6202010.js?file=search.html"></script>
+
+Você irá precisar manipular os dados do post para poder colocar a view da forma que o AngularJS vai trabalhar, crie o arquivo `_includes/Helper/FrelletoBlogPosts`, tem que seguir essa conveção para funcionar, com isso vai ser montado o array da forma que você vai precisar trabalhar.
+
+<script src="https://gist.github.com/vagnerzampieri/6202010.js?file=FrelletoBlogPosts"></script>
+
+Para montar a busca é só colocar as tags certas e chamar os valores instanciados, `FrelletoBlog.posts` irá receber os dados que você manipulou acima e passou para o controller. A tag `ng-repeat` é aonde deverá ser colocado o `for`, o `filter:searchText` fará a busca utilizando o dado de `searchText`. Aonde for colocado a tag `ng-bind-html-unsafe` será os dados que irão aparecer e o `highlight:searchText` serão os dados pesquisados.
+
+<script src="https://gist.github.com/vagnerzampieri/6202010.js?file=index.html"></script>
+
+Como disse não é complexo fazer busca usando AngularJS, para ver como o blog funciona, é só olhar o código no [Github do Frelleto][github_frelleto].
+
+Até a próxima!
 
 [angularjs]: http://angularjs.org/
 [angularjs_tutorial]: http://docs.angularjs.org/tutorial
