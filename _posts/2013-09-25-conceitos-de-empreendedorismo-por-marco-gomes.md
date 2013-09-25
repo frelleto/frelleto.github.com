@@ -68,5 +68,17 @@ Estava passando ontem no twitter quando algo me chamou a atenção o [Marco Gome
 
 - Deal breaker: fator que impede uma negociação de ser concluída. Por ex.: Processo trabalhista é deal breaker de investimento.
 
+- “Ele voa a 20 mil pés”: diz-se de profissional alto-nível, que vê a situação de maneira muito estratégica, sem visão de dia-a-dia. 
+
+- Se vc partir p/ a tática sem estratégia, vai se mostrar um irresponsável afobado, e tem mais chance de errar. 
+
+- Todos os projetos e ações de uma empresa precisam ser divididos em estratégia e tática. A estratégia conduz a tática. 
+
+- As ações, apesar de terem o msm valor, podem ser diferentes. Ter preferência na hora da venda, p/ ser vendida antes da ação comum. 
+
+- Cap table: é a planilha com todos os sócios e acionistas da empresa, o número e tipo de ações e percentuais de cada um. 
+
+- Startup não dá "lucro" (estritamente falando). Tudo que seria lucro é imediatamente investido p/ o crescimento da empresa. 
+
 [marcogomes]: https://twitter.com/marcogomes
 [140mba]: https://twitter.com/search?src=typd&q=%23140mba%20from%3Amarcogomes
