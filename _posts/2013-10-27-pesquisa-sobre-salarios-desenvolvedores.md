@@ -1,5 +1,4 @@
 ---
-published: false
 layout: post
 title: Pesquisa sobre salários de desenvolvedores
 subtitle: Pesquisa simples para que pudéssemos fazer uma média salário dos programadores.
@@ -24,18 +23,19 @@ Importante salientar que os gráficos referentes à "Experiência por estado" e 
 levam em conta somente o universo de respostas postadas, por isso, pode não refletir o que o 
 mercado realmente apresenta já que a participação expressiva nas respostas refere-se aos estados 
 que mais colaboraram.
-GRÁFICO EXPERIÊNCIA POR ESTADO
-GRÁFICO SALÁRIO POR ESTADO
 
+<img src="/images/posts/2013-10-27/Experiência por estado.png"/>
+
+<img src="/images/posts/2013-10-27/Salário por estado.png"/>
 
 Para podermos verificar a média de salários de acordo com a Experiência, fizemos dois gráficos:
-O primeiro refere-se ao salário x experiência levando em conta o total da amostra
-SALÁRIO POR EXPERIÊNCIA TOTAL DA AMOSTRA
+O primeiro refere-se ao salário x experiência levando em conta o total da amostra.
 
+<img src="/images/posts/2013-10-27/Salário por experiência total da amostra.png"/>
 
 O segundo refere-se ao salário x experiência fazendo o comparativo dentro de cada nível declarado
-SALÁRIO POR EXPERIÊNCIA TOTAL EM NÍVEL DECLARADO
 
+<img src="/images/posts/2013-10-27/Salário por experiência total dentro da experiência declarada.png"/>
 
 Como a discussão tomou uma proporção maior que esperávamos e percebemos que os colaboradores também
 tinham interesse em vários outros temas que não foram abordados, desenvolvemos um formulário mais 
