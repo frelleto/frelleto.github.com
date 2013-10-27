@@ -1,11 +1,11 @@
 ---
+published: false
 layout: post
 title: Pesquisa sobre salários de desenvolvedores
-subtitle: Pesquisa simples para que pudéssemos fazer uma média salário dos programadores
+subtitle: Pesquisa simples para que pudéssemos fazer uma média salário dos programadores.
 author: Vivi Sousa
-date: 2013-10-2013 19:04:00
+date: 2013-10-25 19:04:00
 categories: pesquisa
-published: false
 ---
 A ideia da pesquisa surgiu quando conversávamos sobre perfil do desenvolvedor.
 Desejávamos entender a média salarial de acordo com a experiência que cada um.
@@ -41,6 +41,6 @@ Como a discussão tomou uma proporção maior que esperávamos e percebemos que 
 tinham interesse em vários outros temas que não foram abordados, desenvolvemos um formulário mais 
 completo e convidamos todos para nos ajudar a entender o que influencia na experiência, qual o 
 perfil dos desenvolvedores que estão no mercado e qual a relação de experiência x tempo x investimento 
-preenchendo o novo formulário disponível no [Questionário de pesquisa completo][link1]
+preenchendo o novo formulário disponível no [Questionário de pesquisa completo][link1].
 
 [link1]: https://docs.google.com/forms/d/1cC06WREOQUiwrmAzXgya1S5aQzgDJzfNAhXoFxHhbT0/viewform
