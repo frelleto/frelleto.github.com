@@ -17,6 +17,12 @@
   font-style: italic;
 }
 
+h2 {
+  font-family: 'Lobster' !important;
+  src: url('fonts/Lobster/Lobster.ttf');
+  font-style: italic;
+}
+
 h3 {
   font-family: 'Lobster' !important;
   src: url('fonts/Lobster/Lobster.ttf');
@@ -168,6 +174,7 @@ input[type="checkbox"] {
 }
 
 input[type="search"] {
+  width: 70%;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
@@ -239,8 +246,8 @@ textarea {
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 20px;
+  line-height: 25px;
   color: #c8c8c8;
   background-color: #272b30;
 }
@@ -304,7 +311,8 @@ a:focus {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  /*width: 940px;*/
+  width: 90%;
 }
 
 .span12 {
@@ -838,7 +846,7 @@ ol ul {
 }
 
 li {
-  line-height: 21px;
+  line-height: 25px;
 }
 
 ul.unstyled,
@@ -988,7 +996,7 @@ code,
 pre {
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  font-size: 12px;
+  font-size: 18px;
   color: #3a3f44;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
@@ -7089,4 +7097,10 @@ a.thumbnail:hover {
   float: right;
   padding-bottom: 10px;
   padding-left: 10px;
+}
+
+.search {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
 }
