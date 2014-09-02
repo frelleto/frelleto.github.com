@@ -2,7 +2,7 @@
 layout: post
 title: Pesquisa sobre salários de desenvolvedores
 subtitle: Pesquisa simples para que pudéssemos fazer uma média salário dos programadores.
-author: Vivi Sousa
+author: Vivi SZampieri
 date: 2013-10-27 19:04:00
 categories: pesquisa
 ---
