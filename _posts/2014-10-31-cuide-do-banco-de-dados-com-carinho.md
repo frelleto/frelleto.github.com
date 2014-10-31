@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Cuide do Banco de Dados com carinho
-subtitle: Boas práticas utilizando.
+subtitle: Boas práticas para lidar com banco de dados.
 author: Vagner Zampieri
 date: 2014-10-31 14:28:00
 categories: database
